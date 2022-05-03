@@ -1,4 +1,4 @@
-FROM kawithma/whatsasena:latest
+FROM KAWITHMA/whatsasena:latest
 
 RUN git clone $GITHUB_REPO_URL /root/WhatsAsena
 WORKDIR /root/WhatsAsena/
